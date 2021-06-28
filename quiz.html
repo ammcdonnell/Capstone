@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immersive Anime Quiz</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="onLoad()">
+    <h1 class="header">What Ancient Greek God Are You?</h1>
+
+    <!--Questions in quiz-->
+    <div class="questions">
+        <form id="greek-god-quiz">
+
+          <!--Question 1-->
+            <p>1. How would your friends describe you?</p>
+            <input type="radio" id="wise" name="q1" value="Athena">
+            <label for="wise">Wise</label><br>
+            <input type="radio" id="loving" name="q1" value="Aphrodite">
+            <label for="loving">Loving</label><br>
+            <input type="radio" id="fun" name="q1" value="Dionysus">
+            <label for="fun">Fun</label><br>
+            <input type="radio" id="patient" name="q1" value="Hades">
+            <label for="patient">Patient</label><br>
+            <input type="radio" id="creative" name="q1" value="Poseidon">
+            <label for="creative">Creative</label><br>
+            <input type="radio" id="protective" name="q1" value="Zeus">
+            <label for="protective">Protective</label>
+
+            <!--Question 2-->
+            <p>2. Which plant do you like the most?</p>
+            <input type="radio" id="rose" name="q2" value="Aphrodite">
+            <label for="rose">Rose</label><br>
+            <input type="radio" id="olive" name="q2" value="Athena">
+            <label for="olive">Olive Tree</label><br>
+            <input type="radio" id="oak" name="q2" value="Zeus">
+            <label for="oak">Oak Tree</label><br>
+            <input type="radio" id="ivy" name="q2" value="Dionysus">
+            <label for="ivy">Ivy</label><br>
+            <input type="radio" id="death" name="q2" value="Hades">
+            <label for="death">Deadly Nightshade</label><br>
+            <input type="radio" id="seaweed" name="q2" value="Poseidon">
+            <label for="seaweed">Seaweed</label>
+
+            <!--Question 3-->
+            <p>3. What is your fatal flaw?</p>
+            <input type="radio" id="flaw-1" name="q3" value="Zeus">
+            <label for="flaw-1">You are bossy.</label><br>
+            <input type="radio" id="flaw-2" name="q3" value="Aphrodite">
+            <label for="flaw-2">You are obsessed with your looks.</label><br>
+            <input type="radio" id="flaw-3" name="q3" value="Athena">
+            <label for="flaw-3">You always think you are right.</label><br>
+            <input type="radio" id="flaw-4" name="q3" value="Hades">
+            <label for="flaw-4">You are manipulative.</label><br>
+            <input type="radio" id="flaw-5" name="q3" value="Dionysus">
+            <label for="flaw-5">You are too wild. </label>
+            <input type="radio" id="flaw-6" name="q3" value="Poseidon">
+            <label for="flaw-6">You are unpredictable.</label>
+
+            <!--Question 4-->
+            <p>4. If you had to choose one, which ability do you wish you had?</p>
+            <input type="radio" id="ability-1" name="q4" value="Hades">
+            <label for="ability-1">Invisibility</label><br>
+
+            <input type="radio" id="ability-2" name="q4" value="Poseidon">
+            <label for="ability-2">Absolute control over water </label><br>
+
+            <input type="radio" id="ability-3" name="q4" value="Aphrodite">
+            <label for="ability-3">Ability to change your appearance</label><br>
+
+            <input type="radio" id="ability-4" name="q4" value="Dionysus">
+            <label for="ability-4">Ability to turn people into animals</label><br>
+
+            <input type="radio" id="ability-5" name="q4" value="Zeus">
+            <label for="ability-5">Flight</label>
+
+            <input type="radio" id="ability-6" name="q4" value="Athena">
+            <label for="ability-6">Super intelligence </label>
+
+            <!--Question 5-->
+            <p>5. What is your greatest fear?</p>
+            <input type="radio" id="fight" name="q5" value="Hunter x Hunter">
+            <label for="fight">Fight scenes</label><br>
+            <input type="radio" id="detective" name="q5" value="Death Note">
+            <label for="detective">Detective scenes</label><br>
+            <input type="radio" id="sports" name="q5" value="Haikyuu!!">
+            <label for="sports">Sports scenes</label><br>
+            <input type="radio" id="dramatic" name="q5" value="Gurren Lagann">
+            <label for="dramatic">Dramatic scenes</label><br>
+            <input type="radio" id="romance" name="q5" value="FullMetal Alchemist:Brotherhood">
+            <label for="romance">Romantic scenes</label>
+
+            <!--Question 6-->
+            <p>6. What is your favorite animal?</p>
+            <input type="radio" id="char_dev" name="q6" value="Haikyuu!!">
+            <label for="char_dev">Character development</label><br>
+            <input type="radio" id="intense" name="q6" value="Hunter x Hunter">
+            <label for="intense">Intense action</label><br>
+            <input type="radio" id="ending" name="q6" value="Gurren Lagann">
+            <label for="ending">A good ending</label><br>
+            <input type="radio" id="twist" name="q6" value="FullMetal Alchemist:Brotherhood">
+            <label for="twist">Twists and turns</label><br>
+            <input type="radio" id="plot" name="q6" value="Death Note">
+            <label for="plot">A complicated plot</label>
+
+            <!--Question 7-->
+            <p>8. What is your favorite color?</p>
+            <input type="radio" id="fantastical" name="q8" value="Hunter x Hunter">
+            <label for="fantastical">Fantastical</label><br>
+            <input type="radio" id="ominous" name="q8" value="Death Note">
+            <label for="ominous">Ominous</label><br>
+            <input type="radio" id="exhilarating" name="q8" value="Gurren Lagann">
+            <label for="exhilarating">Exhilarating</label><br>
+            <input type="radio" id="intense" name="q8" value="Haikyuu!!">
+            <label for="intense">Intense</label><br>
+            <input type="radio" id="adorable" name="q8" value="Haikyuu!!">
+            <label for="adorable">Adorable</label><br>
+            <input type="radio" id="fun" name="q8" value="FullMetal Alchemist:Brotherhood">
+            <label for="fun">Fun</label><br>
+            <input type="radio" id="dark" name="q8" value="Death Note">
+            <label for="dark">Dark</label>
+
+            <!--Question 8-->
+            <p>8. Pick a place to spend your afternoon:</p>
+            <input type="radio" id="fantastical" name="q8" value="Hunter x Hunter">
+            <label for="fantastical">Fantastical</label><br>
+            <input type="radio" id="ominous" name="q8" value="Death Note">
+            <label for="ominous">Ominous</label><br>
+            <input type="radio" id="exhilarating" name="q8" value="Gurren Lagann">
+            <label for="exhilarating">Exhilarating</label><br>
+            <input type="radio" id="intense" name="q8" value="Haikyuu!!">
+            <label for="intense">Intense</label><br>
+            <input type="radio" id="adorable" name="q8" value="Haikyuu!!">
+            <label for="adorable">Adorable</label><br>
+            <input type="radio" id="fun" name="q8" value="FullMetal Alchemist:Brotherhood">
+            <label for="fun">Fun</label><br>
+            <input type="radio" id="dark" name="q8" value="Death Note">
+            <label for="dark">Dark</label><br><br><br>
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
