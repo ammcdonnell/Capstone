@@ -4,7 +4,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Stockholm, Sweden",
+          "name": "Norse Mythology",
           "fact": "Fun experience or fact",
           "visit": "When I visited this place",
           "description": "Description of the place",
@@ -16,6 +16,114 @@
           "coordinates": [
             18.06324,
             59.334591
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Norse Mythology",
+          "fact": "Fun experience or fact",
+          "visit": "When I visited this place",
+          "description": "Description of the place",
+          "imageUrl": "Image url address",
+          "imageCaption":  "Caption for below the image"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.7274,
+            35.3606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Rapa Nui Mythology",
+          "fact": "Fun experience or fact",
+          "visit": "When I visited this place",
+          "description": "Description of the place",
+          "imageUrl": "Image url address",
+          "imageCaption":  "Caption for below the image"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.3497,
+            -27.1127
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Yoruba Mythology",
+          "fact": "Fun experience or fact",
+          "visit": "When I visited this place",
+          "description": "Description of the place",
+          "imageUrl": "Image url address",
+          "imageCaption":  "Caption for below the image"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.6753,
+            9.0820
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Egyptian Mythology",
+          "fact": "Fun experience or fact",
+          "visit": "When I visited this place",
+          "description": "Description of the place",
+          "imageUrl": "Image url address",
+          "imageCaption":  "Caption for below the image"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.270695,
+            29.533438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Inca Mythology",
+          "fact": "Fun experience or fact",
+          "visit": "When I visited this place",
+          "description": "Description of the place",
+          "imageUrl": "Image url address",
+          "imageCaption":  "Caption for below the image"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.5450,
+            -13.1631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Greek Mythology",
+          "fact": "Fun experience or fact",
+          "visit": "When I visited this place",
+          "description": "Description of the place",
+          "imageUrl": "Image url address",
+          "imageCaption":  "Caption for below the image"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            23.7275,
+            337.9838
           ]
         }
       }
