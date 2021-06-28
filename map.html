@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Map</title>
-  <link rel="stylesheet" href="https://js.arcgis.com/4.12/"/>
-  <link rel="stylesheet" href="globe.css"/>
+  <title>Map of Mythologiess</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.12/" />
+  <link rel="stylesheet" href="globe.css" />
   <script src="https://js.arcgis.com/4.12/"></script>
   <script>
     require([
       "esri/Map",
       "esri/views/SceneView",
       "esri/layers/TileLayer",
-      "esri/Basemap"
-    ], function(Map, SceneView, TileLayer, Basemap) {
+      "esri/Basemap",
+    ], function (Map, SceneView, TileLayer, Basemap) {
+
       const basemap = new Basemap({
         baseLayers: [
           new TileLayer({
-            url:"https://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer"
+            url: "https://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer"
           })
         ]
       });
@@ -26,6 +28,7 @@
         basemap: basemap
       });
 
+      //3d globe
       const view = new SceneView({
         container: "viewDiv",
         map: map,
@@ -46,6 +49,19 @@
           }
         },
         constraints: {
+          popup: {
+            dockEnabled: true,
+            dockOptions: {
+              position: "top-right",
+              breakpoint: false,
+              buttonEnabled: false
+            },
+            collapseEnabled: false
+          },
+          highlightOptions: {
+            color: [255, 255, 255],
+            haloOpacity: 0.5
+          },
           altitude: {
             min: 1000000,
             max: 25000000
@@ -53,11 +69,57 @@
         }
       });
       view.ui.empty("top-left");
+      
+      //pop up code
+      const extremesLayer = new GeoJSONLayer({
+        url: "/GeoJSON/visits.geojson",
+        elevationInfo: {
+          mode: "absolute-height",
+          offset: offset,
+        },
+        renderer: {
+          type: "simple",
+          symbol: {
+            type: "point-3d",
+            symbolLayers: [{
+              type: "icon",
+              resource: {
+                href: "esri-icon-search\ue67b"
+              },
+              size: 15,
+            }, ],
+          },
+        },
+        popupTemplate: {
+          title: "{name}",
+          content: `
+            <div class="popupImage">
+              <img src="{imageUrl}" alt="{imageCaption}"/>
+            </div>
+            <div class="popupImageCaption">{imageCaption}</div>
+            <div class="popupDescription">
+              <p class="info">
+                <span class="esri-icon-favorites"></span> {fact}
+              </p>
+              <p class="info">
+                <span class="esri-icon-map-pin"></span> {visit}
+              </p>
+              <p class="info">
+                <span class="esri-icon-documentation"></span> {description}
+              </p>
+            </div>
+          `,
+        },
+      });
+
+      map.layers.add(extremesLayer);
     });
   </script>
 
 </head>
+
 <body>
   <div id="viewDiv"></div>
 </body>
+
 </html>

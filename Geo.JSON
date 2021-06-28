@@ -1,0 +1,23 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Stockholm, Sweden",
+          "fact": "Fun experience or fact",
+          "visit": "When I visited this place",
+          "description": "Description of the place",
+          "imageUrl": "Image url address",
+          "imageCaption":  "Caption for below the image"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            18.06324,
+            59.334591
+          ]
+        }
+      }
+    ]
+  }
