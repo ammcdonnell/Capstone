@@ -1,69 +1,30 @@
-html,
-body,
-#viewDiv,
-#container{
-  padding:auto;
-  margin: auto;
-  height: 95%;
-  width: 95%;
-  font-family: "Montserrat", sans-serif;
-}
-
 body{
-  background: radial-gradient(#0f0968, #020425);
   text-align: center;
-  color:aliceblue;
   font-family: fantasy;
-}
-#viewDiv canvas {
-  filter: saturate(1.2) drop-shadow(0 0 20px white);
-}
-.esri-popup__content {
-  margin: 0;
-}
+  color: whitesmoke;
+  background-color: whitesmoke;
+  background-image: url(https://www.koreatravelpost.com/wp-content/uploads/2020/10/korean-fortune-telling.jpg);
+  background-blend-mode:luminosity;
+  background-position: center center;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
-.esri-popup__header-title {
-  font-size: 18px;
 }
-
-.esri-popup__footer {
-  display: none;
+h1{
+  margin-bottom: -10px;
 }
-
-.esri-feature__main-container .popupImage {
-  max-height: 250px;
-  overflow: hidden;
+div.cell0{
+  padding-top: 50px;
 }
-
-.popupImage > img {
-  width: 100%;
-}
-
-.popupImageCaption {
-  text-align: center;
-  font-size: 0.9em;
-  padding: 0.1em 1.5em 0;
-}
-
-.popupDescription {
-  padding: 2em;
-}
-
-p.info {
-  margin-bottom: 2em;
-  font-size: 1.1em;
-}
-
-.popupDescription > p:last-child {
-  margin-bottom: 0;
-}
-/*Hamburger menu*/
 #menuToggle
 {
   display: block;
   position: relative;
-  top: 20px;
-  left: -10px;
+  top: -15px;
+  left: 20px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -142,12 +103,14 @@ p.info {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
+
 #menu
 {
   position: absolute;
   width: 200px;
   margin: -100px 0 0 -50px;
   padding: 50px;
+  text-align: right;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
