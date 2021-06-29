@@ -7,9 +7,7 @@
           "name": "Norse Mythology",
           "fact": "Fun experience or fact",
           "visit": "When I visited this place",
-          "description": "Description of the place",
-          "imageUrl": "Image url address",
-          "imageCaption":  "Caption for below the image"
+          "description": "Description of the place"
         },
         "geometry": {
           "type": "Point",
@@ -23,11 +21,9 @@
         "type": "Feature",
         "properties": {
           "name": "Japanese Mythology",
-          "fact": "Fun experience or fact",
+          "fact": "Islands of the Japanese archipelago",
           "visit": "When I visited this place",
-          "description": "Description of the place",
-          "imageUrl": "Image url address",
-          "imageCaption":  "Caption for below the image"
+          "description": "Description of the place"
         },
         "geometry": {
           "type": "Point",
@@ -43,9 +39,7 @@
           "name": "Rapa Nui Mythology",
           "fact": "Fun experience or fact",
           "visit": "When I visited this place",
-          "description": "Description of the place",
-          "imageUrl": "Image url address",
-          "imageCaption":  "Caption for below the image"
+          "description": "Description of the place"
         },
         "geometry": {
           "type": "Point",
@@ -61,9 +55,7 @@
           "name": "Yoruba Mythology",
           "fact": "Fun experience or fact",
           "visit": "When I visited this place",
-          "description": "Description of the place",
-          "imageUrl": "Image url address",
-          "imageCaption":  "Caption for below the image"
+          "description": "Description of the place"
         },
         "geometry": {
           "type": "Point",
@@ -79,9 +71,7 @@
           "name": "Egyptian Mythology",
           "fact": "Fun experience or fact",
           "visit": "When I visited this place",
-          "description": "Description of the place",
-          "imageUrl": "Image url address",
-          "imageCaption":  "Caption for below the image"
+          "description": "Description of the place"
         },
         "geometry": {
           "type": "Point",
@@ -97,9 +87,7 @@
           "name": "Inca Mythology",
           "fact": "Fun experience or fact",
           "visit": "When I visited this place",
-          "description": "Description of the place",
-          "imageUrl": "Image url address",
-          "imageCaption":  "Caption for below the image"
+          "description": "Description of the place"
         },
         "geometry": {
           "type": "Point",
@@ -115,9 +103,7 @@
           "name": "Greek Mythology",
           "fact": "Fun experience or fact",
           "visit": "When I visited this place",
-          "description": "Description of the place",
-          "imageUrl": "Image url address",
-          "imageCaption":  "Caption for below the image"
+          "description": "Description of the place"
         },
         "geometry": {
           "type": "Point",
