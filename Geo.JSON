@@ -37,8 +37,8 @@
         "type": "Feature",
         "properties": {
           "name": "Rapa Nui Mythology",
-          "fact": "Fun experience or fact",
-          "visit": "When I visited this place",
+          "fact": "700 - 1600 CE",
+          "visit": "Easter Island",
           "description": "Description of the place"
         },
         "geometry": {
