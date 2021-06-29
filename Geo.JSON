@@ -21,9 +21,9 @@
         "type": "Feature",
         "properties": {
           "name": "Japanese Mythology",
-          "fact": "Islands of the Japanese archipelago",
-          "visit": "When I visited this place",
-          "description": "Description of the place"
+          "fact": "Ancient Shinto Society 600 CE",
+          "visit": "Islands of the Japanese archipelago",
+          "description": "A classic folklore: Momotaro, a small boy is born from a giant peach and descends to Earth to be the son of an elderly couple. The boy rejuvenates the old couple, making them feel young again, and encouraging them to follow their dreams."
         },
         "geometry": {
           "type": "Point",
