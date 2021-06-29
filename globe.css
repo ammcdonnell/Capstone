@@ -17,6 +17,8 @@ body{
 }
 #viewDiv canvas {
   filter: saturate(1.2) drop-shadow(0 0 20px white);
+
+  /* popup */
 }
 .esri-popup__content {
   margin: 0;
@@ -35,15 +37,15 @@ body{
   overflow: hidden;
 }
 
-.popupImage > img {
+/* .popupImage > img {
   width: 100%;
-}
+} */
 
-.popupImageCaption {
+/* .popupImageCaption {
   text-align: center;
   font-size: 0.9em;
   padding: 0.1em 1.5em 0;
-}
+} */
 
 .popupDescription {
   padding: 2em;

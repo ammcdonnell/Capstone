@@ -5,9 +5,9 @@
         "type": "Feature",
         "properties": {
           "name": "Norse Mythology",
-          "fact": "Fun experience or fact",
-          "visit": "When I visited this place",
-          "description": "Description of the place"
+          "fact": "c. 790 - c. 1100 CE",
+          "visit": "Scandinavia",
+          "description": "A classic folklore: In Norse mythology, before the beginning of time, there was Ginnungagap – a dark emptiness, which separated the icy land of Niflheim and the fiery land of Muspelheim. These two realms rose in power and clashed; the burning frost turned into water drops and the water drops turned into life. These life-giving drops of water created Ymir, the first living being whose death was brought about by Odin and his brothers, who were Ymir’s descendants. Odin, Vili, and Vé manufactured the Nordic mythological universe from his blood, bones, flesh, teeth, hair, eyelashes, brains and skull."
         },
         "geometry": {
           "type": "Point",
@@ -21,8 +21,8 @@
         "type": "Feature",
         "properties": {
           "name": "Japanese Mythology",
-          "fact": "Ancient Shinto Society 600 CE",
-          "visit": "Islands of the Japanese archipelago",
+          "fact": "c. 600 CE",
+          "visit": "Islands of the Japanese Archipelago",
           "description": "A classic folklore: Momotaro, a small boy is born from a giant peach and descends to Earth to be the son of an elderly couple. The boy rejuvenates the old couple, making them feel young again, and encouraging them to follow their dreams."
         },
         "geometry": {
@@ -37,9 +37,9 @@
         "type": "Feature",
         "properties": {
           "name": "Rapa Nui Mythology",
-          "fact": "700 - 1600 CE",
+          "fact": "c. 700 - c. 1600 CE",
           "visit": "Easter Island",
-          "description": "Description of the place"
+          "description": "A classic folklore: The Ariki (king) Hotu Matu’a lived in a beautiful continent called Hiva. When he received a message that Hiva would soon sink, Hotu Matu’a sent seven explorers towards the morning sun, in search of a favorable land to live and grow yams. The seven explorers found a small island that seemed fertile and led Hotu Matu’a to it. Some believe that the seven explorers represent the seven generations or tribes that inhabited the place, of which only one survived and mixed with the people of Hotu Matu’a.These seven explorers are represented by the seven moai that are found in Ahu Akivi."
         },
         "geometry": {
           "type": "Point",
@@ -53,9 +53,9 @@
         "type": "Feature",
         "properties": {
           "name": "Yoruba Mythology",
-          "fact": "Fun experience or fact",
-          "visit": "When I visited this place",
-          "description": "Description of the place"
+          "fact": "c. 700 CE",
+          "visit": "Nigeria, Togo, Benin",
+          "description": "A classic folklore: The Sun and Moon were married and had many children who were the stars. The Sun was very fond of his children but everytime he embraced his children, he was so hot that he burned them. Thus, the moon forbade him from touching his children. When the Sun disobeyed the Moon, she tried to strike him with a tree but the Sun started to chase her and they have been going ever since. "
         },
         "geometry": {
           "type": "Point",
@@ -69,9 +69,9 @@
         "type": "Feature",
         "properties": {
           "name": "Egyptian Mythology",
-          "fact": "Fun experience or fact",
-          "visit": "When I visited this place",
-          "description": "Description of the place"
+          "fact": "c. 300 BCE - c. 200 CE",
+          "visit": "Egypt",
+          "description": "A classic folklore: Osiris, the primeval king of Egypt is killed and his brother, Set, takes his throne. Meanwhile, Osiris’s wife, Isis, restores her husband’s body, allowing him to posthumously conceive their son, Horus. Horus becomes Set’s rival for the throne and Horus wins a violent conflict against Set, restoring both cosmic and social order to Egypt and fully resurrecting Osiris."
         },
         "geometry": {
           "type": "Point",
@@ -85,9 +85,9 @@
         "type": "Feature",
         "properties": {
           "name": "Inca Mythology",
-          "fact": "Fun experience or fact",
-          "visit": "When I visited this place",
-          "description": "Description of the place"
+          "fact": "c. 1400 - 1530 CE",
+          "visit": "Andes mountains of South America",
+          "description": "Classic folklore: Incan belief systems were integrated with their view of the cosmos and from this perspective, their stories depict the movements of constellations and planets which are connected to their agricultural cycles. For example, the Incas saw the Milky Way as a heavenly river. In Inca mythology, it was believed that Illapu, the god of weather, had a sister who stored this river’s water in a jug until it was needed on the earth. It was believed that the sound of thunder came from Illapu striking the jug with a bolt of lightning from his slingshot, and that the jug would break from this strike, releasing rain on earth."
         },
         "geometry": {
           "type": "Point",
@@ -101,9 +101,9 @@
         "type": "Feature",
         "properties": {
           "name": "Greek Mythology",
-          "fact": "Fun experience or fact",
-          "visit": "When I visited this place",
-          "description": "Description of the place"
+          "fact": "c. 2000 - 146 BCE",
+          "visit": "Greece",
+          "description": "A classic folklore: To explain the origin of the seasons, the Ancient Greeks believed that Hades the god of the Underworld fell in love with Persephone, the goddess of vegetation and abducted her, taking her to the Underworld to marry him. Persephone’s absence on the land above ground led to the failure of crops and starvation. Zeus asks Hades to return Persephone to her mother Demeter above-ground. However, Hades gave Persephone a pomegranate seed from the underworld, signifying that she could not be completely freed and had to remain one-third of the year with Hades, spending the other two-thirds with her mother above-ground. Accordingly, the four months she spends in the underworld signifies the barren season of winter."
         },
         "geometry": {
           "type": "Point",
