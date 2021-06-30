@@ -9,7 +9,17 @@
   <script type="text/javascript" src="godfinder.js"></script>
 </head>
 <body>
-  <h2>God Finder</h2>
+  <h2>Find me a
+    <select id="mythSelector" onchange="checkForTranslation()">
+      <option>Greek</option>
+      <option>Japanese</option>
+      <option>Rapa Nui</option>
+      <option>Yoruba</option>
+      <option>Egyptian</option>
+      <option>Norse</option>
+      <option>Inca</option>
+    </select>
+  deity</h2>
   <input placeholder="looking for the god of..." id="inputTextField" type="text" onkeyup="checkForTranslation()">
   <div id="translationOutputDiv" style="display: inline">[translation]</div>
 
