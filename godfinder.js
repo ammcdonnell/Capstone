@@ -323,6 +323,18 @@ function checkForTranslation()
     {
       outputDiv.innerHTML = "Izanagi and Izanami";
     }
+    else if (input == "wisdom")
+    {
+      outputDiv.innerHTML = "Omoikane";
+    }
+    else if (input == "sea")
+    {
+     outputDiv.innerHTML = "Ryujin";
+    }
+    else if (input == "seas")
+    {
+      outputDiv.innerHTML = "Ryujin";
+    }
     else if (input == "")
     {
       outputDiv.innerHTML = "";
@@ -517,6 +529,27 @@ function checkForTranslation()
     {
       outputDiv.innerHTML = "Thoth";
     }
+    else if (input == "fertility")
+    {
+      outputDiv.innerHTML = "Bes";
+    }
+    else if (input == "beauty")
+    {
+      outputDiv.innerHTML = "Hathor";
+    }
+    else if (input == "love")
+    {
+     outputDiv.innerHTML = "Hathor";
+    }
+    else if (input == "order")
+    {
+    outputDiv.innerHTML = "Ma’at";
+    }
+    else if (input == "creation")
+    {
+    outputDiv.innerHTML = "Neith";
+    }
+
     else if (input == "")
     {
       outputDiv.innerHTML = "";
