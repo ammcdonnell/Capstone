@@ -19,6 +19,10 @@ function checkForTranslation()
     {
       outputDiv.innerHTML = "Hades";
     }
+    else if (input == "the dead")
+    {
+      outputDiv.innerHTML = "Hades";
+    }
     else if (input == "dead")
     {
       outputDiv.innerHTML = "Hades";
@@ -323,6 +327,18 @@ function checkForTranslation()
     {
       outputDiv.innerHTML = "Izanagi and Izanami";
     }
+    else if (input == "wisdom")
+    {
+      outputDiv.innerHTML = "Omoikane";
+    }
+    else if (input == "sea")
+    {
+     outputDiv.innerHTML = "Ryujin";
+    }
+    else if (input == "seas")
+    {
+      outputDiv.innerHTML = "Ryujin";
+    }
     else if (input == "")
     {
       outputDiv.innerHTML = "";
@@ -341,6 +357,14 @@ function checkForTranslation()
     else if (input == "king")
     {
       outputDiv.innerHTML = "Hota Matu'a";
+    }
+    else if (input == "the dead")
+    {
+      outputDiv.innerHTML = "Aku-Aku";
+    }
+    else if (input == "dead")
+    {
+      outputDiv.innerHTML = "Aku-Aku";
     }
 
     else if (input == "")
@@ -426,6 +450,10 @@ function checkForTranslation()
       outputDiv.innerHTML = "Nut";
     }
     else if (input == "death")
+    {
+      outputDiv.innerHTML = "Anubis";
+    }
+    else if (input == "the dead")
     {
       outputDiv.innerHTML = "Anubis";
     }
@@ -517,6 +545,27 @@ function checkForTranslation()
     {
       outputDiv.innerHTML = "Thoth";
     }
+    else if (input == "fertility")
+    {
+      outputDiv.innerHTML = "Bes";
+    }
+    else if (input == "beauty")
+    {
+      outputDiv.innerHTML = "Hathor";
+    }
+    else if (input == "love")
+    {
+     outputDiv.innerHTML = "Hathor";
+    }
+    else if (input == "order")
+    {
+    outputDiv.innerHTML = "Ma’at";
+    }
+    else if (input == "creation")
+    {
+    outputDiv.innerHTML = "Neith";
+    }
+
     else if (input == "")
     {
       outputDiv.innerHTML = "";
