@@ -25,7 +25,7 @@ function renderGifs(gifs){
         //How to form the template with generating image names using the loop
         // template += `<div class="image-data"><img src="${imageName}" alt="image"><p>This is image${i}</p></div>`;
         //How to form the template with an array of objects
-        template += `<div class="image-data"><img src="${arr[i].img}" alt="image"><p>${arr[i].caption}</p></div>`;
+        template += `<div class="image-data"><img src="${arr[i].img}" alt="image"><p class="caption">${arr[i].caption}</p></div>`;
     }
 
     console.log(template);
