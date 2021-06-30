@@ -19,6 +19,10 @@ function checkForTranslation()
     {
       outputDiv.innerHTML = "Hades";
     }
+    else if (input == "the dead")
+    {
+      outputDiv.innerHTML = "Hades";
+    }
     else if (input == "dead")
     {
       outputDiv.innerHTML = "Hades";
@@ -354,6 +358,14 @@ function checkForTranslation()
     {
       outputDiv.innerHTML = "Hota Matu'a";
     }
+    else if (input == "the dead")
+    {
+      outputDiv.innerHTML = "Aku-Aku";
+    }
+    else if (input == "dead")
+    {
+      outputDiv.innerHTML = "Aku-Aku";
+    }
 
     else if (input == "")
     {
@@ -438,6 +450,10 @@ function checkForTranslation()
       outputDiv.innerHTML = "Nut";
     }
     else if (input == "death")
+    {
+      outputDiv.innerHTML = "Anubis";
+    }
+    else if (input == "the dead")
     {
       outputDiv.innerHTML = "Anubis";
     }
