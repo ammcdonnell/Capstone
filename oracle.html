@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Oracle</title>
   <link rel="stylesheet" href="oracle.css">
+  <script type="text/javascript" src="godfinder.js"></script>
 
 </head>
 <body>
@@ -35,6 +36,21 @@
           </div>
       </nav>
     </div>
+  </div>
+  <div class="godfinder">
+    <h2>Find me a
+      <select id="mythSelector" onchange="checkForTranslation()">
+        <option>Greek</option>
+        <option>Japanese</option>
+        <option>Rapa Nui</option>
+        <option>Yoruba</option>
+        <option>Egyptian</option>
+        <option>Norse</option>
+        <option>Inca</option>
+      </select>
+    deity</h2>
+    <input placeholder="looking for the god of..." id="inputTextField" type="text" onkeyup="checkForTranslation()">
+    <div id="translationOutputDiv" style="display: inline">[translation]</div>
   </div>
   <script async src="https://cse.google.com/cse.js?cx=245a525fd39e14390"></script>
 <div class="gcse-search"></div>

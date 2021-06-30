@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>God Finder</title>
+  <link rel="stylesheet" href="godfinder.css">
+  <script type="text/javascript" src="godfinder.js"></script>
+</head>
+<body>
+  <h2>Find me a
+    <select id="mythSelector" onchange="checkForTranslation()">
+      <option>Greek</option>
+      <option>Japanese</option>
+      <option>Rapa Nui</option>
+      <option>Yoruba</option>
+      <option>Egyptian</option>
+      <option>Norse</option>
+      <option>Inca</option>
+    </select>
+  deity</h2>
+  <input placeholder="looking for the god of..." id="inputTextField" type="text" onkeyup="checkForTranslation()">
+  <div id="translationOutputDiv" style="display: inline">[translation]</div>
+
+</body>
+</html>
