@@ -130,3 +130,10 @@ div.cell0{
 {
   transform: none;
 }
+
+/*godfinder*/
+div.godfinder{
+  background-color: white;
+  color: black;
+
+}
