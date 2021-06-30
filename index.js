@@ -73,7 +73,7 @@ require([
   }), {
       size: 2 * (R + offset),
       material: {
-          colorTexture: 'clouds-nasa.png',
+          colorTexture: 'Images/clouds-nasa.png',
           doubleSided: false
       },
       densificationFactor: 4
@@ -103,7 +103,7 @@ require([
               type: "point-3d",
               symbolLayers: [{
                   type: "icon",
-                  resource: { href: 'dot-circle-regular.svg' },
+                  resource: { href: 'Images/dot-circle-regular.svg' },
                   size: 15
               },
               ]
