@@ -1,16 +1,16 @@
-let searchForm = document.querySelector('#search');
+// let searchForm = document.querySelector('#search');
 
-searchForm.addEventListener('submit', function(event){
-    event.preventDefault();
-    let searchTerm = document.querySelector('#searchTerm').value;
-    let queryString = `${requestUrl}?api_key=${api_key}&q=${searchTerm}&limit=50`;
+// searchForm.addEventListener('submit', function(event){
+    // event.preventDefault();
+    // let searchTerm = document.querySelector('#searchTerm').value;
+    // let queryString = `${requestUrl}?api_key=${api_key}&q=${searchTerm}&limit=50`;
     /*axios.get(queryString).then(resp=>{
         let data = resp.data.data;
         renderGifs(data);
         })*/
         renderGifs(42)
 
-});
+// });
 
 function renderGifs(gifs){
 
@@ -19,11 +19,11 @@ function renderGifs(gifs){
     let gallery = document.querySelector('.gallery');
     let template='';
 
-    for(let i =1; i <= gifs; i++){
+    for(let i = 0; i < arr.length; i++){
         let imageName =`image${i}.jpg`;
         console.log(imageName);
         //How to form the template with generating image names using the loop
-        template += `<div class="image-data"><img src="${imageName}" alt="image"><p>This is image${i}</p></div>`;
+        // template += `<div class="image-data"><img src="${imageName}" alt="image"><p>This is image${i}</p></div>`;
         //How to form the template with an array of objects
         template += `<div class="image-data"><img src="${arr[i].img}" alt="image"><p>${arr[i].caption}</p></div>`;
     }
