@@ -1,13 +1,15 @@
 body{
-  background-color:#696767;
+  background-color:#232323;
   font-family: fantasy;
   display: grid;
   grid-template-rows: max-content auto max-content;
   text-align: center;
+  color: white;
+  background-image: url(stone1.jpg);
 }
 
 .gallery{
-  background-color:#696767;
+  /* background-color:#232323; */
  display: flex;
  flex-flow: row wrap;
  align-items: center;
@@ -21,7 +23,7 @@ img{
 }
 
 .caption{
-  width: 150px;
+  width: 200px;
   text-align: center;
   /* 210 width */
 }
@@ -39,8 +41,7 @@ h2{
 }
 
 div.image-data{
-  border: 3px solid white;
-  /* margin-top: 100px; */
+  margin-top: 100px;
 }
 
 
