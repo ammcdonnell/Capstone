@@ -23,7 +23,7 @@
           "name": "Japanese Mythology",
           "fact": "c. 600 CE",
           "visit": "Islands of the Japanese Archipelago",
-          "description": "A classic folklore: Momotaro, a small boy is born from a giant peach and descends to Earth to be the son of an elderly couple. The boy rejuvenates the old couple, making them feel young again, and encouraging them to follow their dreams."
+          "description": "A classic folklore: Momotaro, A long time ago a small boy was born from a peach found by a childless, elderly couple. They named him Momotaro, which means little peach. The boy grew to be brave and one day declared he was going to find the orgres island and take their treasure. Along the way, Momotaro befriended a monkey, a dog, and a pheasant, all of whom promised to help him in his quest. When the four got to the orges island, they worked together to fight the orges, take their king prisoner, and take all of their wonderful treasure. Momotaro took the treasure back home to his family and they lived happily for the rest of their lives."
         },
         "geometry": {
           "type": "Point",
@@ -39,7 +39,7 @@
           "name": "Rapa Nui Mythology",
           "fact": "c. 700 - c. 1600 CE",
           "visit": "Easter Island",
-          "description": "A classic folklore: The Ariki (king) Hotu Matu’a lived in a beautiful continent called Hiva. When he received a message that Hiva would soon sink, Hotu Matu’a sent seven explorers towards the morning sun, in search of a favorable land to live and grow yams. The seven explorers found a small island that seemed fertile and led Hotu Matu’a to it. Some believe that the seven explorers represent the seven generations or tribes that inhabited the place, of which only one survived and mixed with the people of Hotu Matu’a.These seven explorers are represented by the seven moai that are found in Ahu Akivi."
+          "description": "A classic folklore: The Origin of Easter Island, The Ariki (king) Hotu Matu’a lived on a beautiful continent called Hiva. When he received a message that Hiva would soon sink, Hotu Matu’a sent seven explorers towards the morning sun, in search of a favorable land to live and grow yams. Taking yams and a moai with them, the seven explorers found a small island that seemed fertile and led Hotu Matu’a to it. This island became known as Easter Island. Some believe that the seven explorers represent the seven generations or tribes that inhabited the place, of which only one survived and mixed with the people of Hotu Matu’a. These seven explorers are represented by the seven moai that are found in Ahu Akivi."
         },
         "geometry": {
           "type": "Point",
@@ -55,7 +55,7 @@
           "name": "Yoruba Mythology",
           "fact": "c. 700 CE",
           "visit": "Nigeria, Togo, Benin",
-          "description": "A classic folklore: The Sun and Moon were married and had many children who were the stars. The Sun was very fond of his children but everytime he embraced his children, he was so hot that he burned them. Thus, the moon forbade him from touching his children. When the Sun disobeyed the Moon, she tried to strike him with a tree but the Sun started to chase her and they have been going ever since. "
+          "description": "A classic folklore: Long ago, the Sun and Moon were married and had many children who were the stars. The Sun was very fond of his children, but everytime he embraced them he burned them because he was so hot. Thus, the Moon forbade him from touching his children. When the Sun disobeyed the Moon, she tried to strike him with a tree, but the Sun became angry and started to chase her. They have been going ever since and this is why there is Day and Night. "
         },
         "geometry": {
           "type": "Point",
@@ -71,7 +71,7 @@
           "name": "Egyptian Mythology",
           "fact": "c. 300 BCE - c. 200 CE",
           "visit": "Egypt",
-          "description": "A classic folklore: Osiris, the primeval king of Egypt is killed and his brother, Set, takes his throne. Meanwhile, Osiris’s wife, Isis, restores her husband’s body, allowing him to posthumously conceive their son, Horus. Horus becomes Set’s rival for the throne and Horus wins a violent conflict against Set. This triumph over Set restores both the cosmic and social order to Egypt and fully resurrects Osiris."
+          "description": "A classic folklore: Osiris and Set, Thousands of years ago, the god Osiris ruled the world with his wife Isis. He created Egypt and kept the world in ma'at (harmony). His younger brother Set, the god of chaos and violece, killed Osiris in jealously and took his throne. Isis refused to accept her husband's death and worked to restore his body with the help of her sister Nephthys. The two were able to partially put Osiris back together, and shortly after Isis gave birth to their son Horus. Osiris could no longer rule the world as he was incomplete, and became ruler of the underworld. Horus, set on avenging his father, challenged Set for the throne, and won after a violent battle. This triumph over Set restored ma'at to the world and Horus became ruler of Egypt."
         },
         "geometry": {
           "type": "Point",
