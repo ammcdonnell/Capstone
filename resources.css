@@ -1,9 +1,13 @@
 body{
-  background-color: #333333;
+  background-color:#696767;
   font-family: fantasy;
+  display: grid;
+  grid-template-rows: max-content auto max-content;
+  text-align: center;
 }
+
 .gallery{
-  background-color: #333333;
+  background-color:#696767;
  display: flex;
  flex-flow: row wrap;
  align-items: center;
@@ -17,13 +21,26 @@ img{
 }
 
 .caption{
-  width: 210px;
+  width: 150px;
   text-align: center;
-
+  /* 210 width */
 }
 
 h1{
   text-align: center;
+}
+
+h2{
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+div.image-data{
+  border: 3px solid white;
+  /* margin-top: 100px; */
 }
 
 
