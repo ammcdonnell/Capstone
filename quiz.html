@@ -2,166 +2,50 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ancient Greek God Quiz</title>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="quiz.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ancient Greek God Quiz</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://js.arcgis.com/4.12/esri/themes/light/main.css"/>
+
+  <script type="text/javascript" src="quiz.js"></script>
+  <link rel="stylesheet" href="quiz.css">
 
 </head>
 
-<body onload="onLoad()">
-    <h1 class="header">Which Ancient Greek Olympian Are You?</h1>
+<body>
 
-    <div class="cell0-1">
-        <nav role="navigation">
-            <div id="menuToggle">
-              <input type="checkbox" />
-              <!-- lines for hamburguer  -->
-              <span></span>
-              <span></span>
-              <span></span>
-    
-              <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="oracle.html">Oracle</a></li>
-                <li><a href="resources.html">Mythology Resource Gallery</a></li>
-                <li><a href="quiz.html">Deity Quiz</a></li>
-              </ul>
-            </div>
-        </nav>
+  <div class="cell0-1">
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <!-- lines for hamburguer  -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resources.html">Learning Temple</a></li>
+          <li><a href="oracle.html">Oracle</a></li>
+          <li><a href="quiz.html">Divinity Quiz</a></li>
+        </ul>
       </div>
+    </nav>
+  </div>
 
-    <!--Questions in quiz-->
-    <div class="questions">
-        <form id="greek-god-quiz">
-
-          <!--Question 1-->
-            <p>1. How would your friends describe you?</p>
-            <input type="radio" id="wise" name="q1" value="Athena">
-            <label for="wise">Wise</label><br>
-            <input type="radio" id="loving" name="q1" value="Aphrodite">
-            <label for="loving">Loving</label><br>
-            <input type="radio" id="fun" name="q1" value="Dionysus">
-            <label for="fun">Fun</label><br>
-            <input type="radio" id="patient" name="q1" value="Hades">
-            <label for="patient">Patient</label><br>
-            <input type="radio" id="creative" name="q1" value="Poseidon">
-            <label for="creative">Creative</label><br>
-            <input type="radio" id="protective" name="q1" value="Zeus">
-            <label for="protective">Protective</label>
-
-            <!--Question 2-->
-            <p>2. Which plant do you like the most?</p>
-            <input type="radio" id="rose" name="q2" value="Aphrodite">
-            <label for="rose">Rose</label><br>
-            <input type="radio" id="olive" name="q2" value="Athena">
-            <label for="olive">Olive Tree</label><br>
-            <input type="radio" id="oak" name="q2" value="Zeus">
-            <label for="oak">Oak Tree</label><br>
-            <input type="radio" id="ivy" name="q2" value="Dionysus">
-            <label for="ivy">Ivy</label><br>
-            <input type="radio" id="death" name="q2" value="Hades">
-            <label for="death">Deadly Nightshade</label><br>
-            <input type="radio" id="seaweed" name="q2" value="Poseidon">
-            <label for="seaweed">Seaweed</label>
-
-            <!--Question 3-->
-            <p>3. What is your fatal flaw?</p>
-            <input type="radio" id="flaw-1" name="q3" value="Zeus">
-            <label for="flaw-1">You are bossy.</label><br>
-            <input type="radio" id="flaw-2" name="q3" value="Aphrodite">
-            <label for="flaw-2">You are obsessed with your looks.</label><br>
-            <input type="radio" id="flaw-3" name="q3" value="Athena">
-            <label for="flaw-3">You always think you are right.</label><br>
-            <input type="radio" id="flaw-4" name="q3" value="Hades">
-            <label for="flaw-4">You are manipulative.</label><br>
-            <input type="radio" id="flaw-5" name="q3" value="Dionysus">
-            <label for="flaw-5">You are too wild. </label><br>
-            <input type="radio" id="flaw-6" name="q3" value="Poseidon">
-            <label for="flaw-6">You are unpredictable.</label>
-
-            <!--Question 4-->
-            <p>4. If you had to choose one, which ability do you wish you had?</p>
-            <input type="radio" id="ability-1" name="q4" value="Hades">
-            <label for="ability-1">Invisibility</label><br>
-            <input type="radio" id="ability-2" name="q4" value="Poseidon">
-            <label for="ability-2">Absolute control over water </label><br>
-            <input type="radio" id="ability-3" name="q4" value="Aphrodite">
-            <label for="ability-3">Ability to change your appearance</label><br>
-            <input type="radio" id="ability-4" name="q4" value="Dionysus">
-            <label for="ability-4">Ability to turn people into animals</label><br>
-            <input type="radio" id="ability-5" name="q4" value="Zeus">
-            <label for="ability-5">Flight</label><br>
-            <input type="radio" id="ability-6" name="q4" value="Athena">
-            <label for="ability-6">Super intelligence </label>
-
-            <!--Question 5-->
-            <p>5. What is your greatest fear?</p>
-            <input type="radio" id="fear-1" name="q5" value="Zeus">
-            <label for="fear-1">Having your power taken away</label><br>
-            <input type="radio" id="fear-2" name="q5" value="Aphrodite">
-            <label for="fear-2">Aging</label><br>
-            <input type="radio" id="fear-3" name="q5" value="Athena">
-            <label for="fear-3">Ignorance</label><br>
-            <input type="radio" id="fear-4" name="q5" value="Hades">
-            <label for="fear-4">Losing your loved ones</label><br>
-            <input type="radio" id="fear-5" name="q5" value="Dionysus">
-            <label for="fear-5">Being bored</label><br>
-            <input type="radio" id="fear-6" name="q5" value="Poseidon">
-            <label for="fear-6">Fire</label>
-
-            <!--Question 6-->
-            <p>6. What is your favorite animal?</p>
-            <input type="radio" id="tiger" name="q6" value="Dionysus">
-            <label for="tiger">Tiger</label><br>
-            <input type="radio" id="dog" name="q6" value="Hades">
-            <label for="dog">Dog</label><br>
-            <input type="radio" id="dolphin" name="q6" value="Poseidon">
-            <label for="dolphin">Dolphin</label><br>
-            <input type="radio" id="bee" name="q6" value="Aphrodite">
-            <label for="bee">Bee</label><br>
-            <input type="radio" id="eagle" name="q6" value="Zeus">
-            <label for="eagle">Eagle</label><br>
-            <input type="radio" id="owl" name="q6" value="Athena">
-            <label for="owl">Owl</label>
-
-            <!--Question 7-->
-            <p>8. What is your favorite color?</p>
-            <input type="radio" id="maroon" name="q8" value="Dionysus">
-            <label for="maroon">Maroon</label><br>
-            <input type="radio" id="blue" name="q8" value="Poseidon">
-            <label for="blue">Blue</label><br>
-            <input type="radio" id="yellow" name="q8" value="Zeus">
-            <label for="yellow">Yellow</label><br>
-            <input type="radio" id="pink" name="q8" value="Aphrodite">
-            <label for="pink">Pink</label><br>
-            <input type="radio" id="grey" name="q8" value="Athena">
-            <label for="grey">Grey</label><br>
-            <input type="radio" id="black" name="q8" value="Hades">
-            <label for="black">Black</label><br>
-
-            <!--Question 8-->
-            <p>8. Pick a place to spend your afternoon:</p>
-            <input type="radio" id="vineyard" name="q8" value="Dionysus">
-            <label for="vineyard">A vineyard in the countryside</label><br>
-            <input type="radio" id="home" name="q8" value="Hades">
-            <label for="home">At home with your significant other</label><br>
-            <input type="radio" id="beach" name="q8" value="Poseidon">
-            <label for="beach">The beach</label><br>
-            <input type="radio" id="salon" name="q8" value="Aphrodite">
-            <label for="salon">The salon</label><br>
-            <input type="radio" id="mountain" name="q8" value="Zeus">
-            <label for="mountain">On top of a mountain</label><br>
-            <input type="radio" id="library" name="q8" value="Athena">
-            <label for="library">The library</label><br><br><br>
-
-        </form>
-    </div>
+  <h1 class="header">Which Ancient Greek Olympian Are You?</h1>
+  <div class="quiz-container">
+    <div id="quiz"></div>
+  </div>
+  <button id="previous">Previous Question</button>
+  <button id="next">Next Question</button>
+  <button id="submit">Submit Quiz</button>
+  <div id="results"></div>
 
 </body>
 
