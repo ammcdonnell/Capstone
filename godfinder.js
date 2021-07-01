@@ -559,7 +559,7 @@ function checkForTranslation()
     }
     else if (input == "order")
     {
-    outputDiv.innerHTML = "Ma’at";
+    outputDiv.innerHTML = "ma’at";
     }
     else if (input == "creation")
     {
