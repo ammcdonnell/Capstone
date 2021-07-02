@@ -1,6 +1,6 @@
 body{
   text-align: center;
-  font-family: fantasy;
+  font-family: "Montserrat", sans-serif;
   color: whitesmoke;
   background-color: whitesmoke;
   background-image: url(https://www.koreatravelpost.com/wp-content/uploads/2020/10/korean-fortune-telling.jpg);
@@ -15,7 +15,9 @@ body{
 }
 h1{
   margin-bottom: -10px;
+  font-family: fantasy;
 }
+
 div.cell0{
   padding-top: 50px;
 }
@@ -162,4 +164,5 @@ div.godfinder{
   padding-top: 5px;
   border-radius: 10px 10px 10px 10px;
   background-color: rgb(229, 240, 248);
+  font-family: fantasy;
 }
