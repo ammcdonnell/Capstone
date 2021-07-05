@@ -13,6 +13,9 @@ body{
   background: radial-gradient(#0f0968, #020425);
   text-align: center;
   color:aliceblue;
+  font-family: "Montserrat", sans-serif;
+}
+h1{
   font-family: fantasy;
 }
 #viewDiv canvas {
