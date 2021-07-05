@@ -52,12 +52,12 @@
     let aphroditeCorrect = {
       count: 0,
       name: "Aphrodite",
-      god: "Goddess of Love and beauty"
+      trait: "Goddess of Love and beauty"
     }
     let dionysusCorrect = {
       count: 0,
       name: "Dionysus",
-      god: "God of Fertility and wine"
+      trait: "God of Fertility and wine"
     }
     let hadesCorrect = {
       count: 0,
